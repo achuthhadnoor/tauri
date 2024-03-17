@@ -6,7 +6,9 @@ on:
   workflow_dispatch:
 
 jobs:
-	@@ -12,46 +12,45 @@ jobs:
+  release:
+    permissions:
+      contents: write
     strategy:
       fail-fast: false
       matrix:
